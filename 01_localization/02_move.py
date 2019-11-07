@@ -12,11 +12,10 @@ pMiss = 0.2
 
 def move(p, U):
     q = [None] * len(p)
-    for i in range(U):
-        for j in range(len(p)-1):
-            q[j+1] = p[j]
-        q[0] = p[-1]
+    for i in range(len(p)):
+        q[i] = p[i-U % len(p)]
+    q[0] = p[-1]
             
     return q
 
-print move(p, 1)
+print(move(p, 1))
