@@ -25,4 +25,4 @@ j = prior
 ![Total Probability](./../images/total_probability.png)
 
 Theorem of Total Probability   
-![Theorem of Total Probability](./..images/theorem_of_total_probability.png)
+![Theorem of Total Probability](./../images/theorem_of_total_probability.png)
